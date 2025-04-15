@@ -5,6 +5,9 @@ import Cookies from "universal-cookie"
 
 const Auth = ({setIsAuth}) => {
     const cookies = new Cookies()
+          
+    console.log("auth", auth);
+    
 
     const signInWithGoogle = async() => {
         try {
